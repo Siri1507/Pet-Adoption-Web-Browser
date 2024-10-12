@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+caption{
+    font-weight: bold;
+}
+table{
+    border: 2px solid black;
+    border-spacing: 5px;
+    width:500px;
+}
+tr{
+    padding-bottom: 2px;
+}
+th{
+    color: black;
+    border:1px solid black;
+    padding: 15px;
+}
+td{
+    padding: 15px;
+    border:1px solid black;
+}
+a{
+    text-decoration: none;
+    color: rgb(1, 17, 238);
+}
+.tw{
+    text-align: center;
+    margin-top: 175px;
+}
+button{
+    font-size:20px;
+    position: fixed;
+    top: 5px;
+    left: 10px;
+    width: 5%;
+    height: 5%;
+    color: black;
+    background-color:tomato;
+}
